@@ -13,5 +13,5 @@ Create a repository in your GitHub account. Put your solution there. In the read
 Make sure you have a TestProgram that will validate the proposed refactored codes.
 
 ## UML Diagram
-![UML Diagram](https://github.com/fausturnacht/SOLID-Principles3/blob/fafd02d9e31eaa38057b46b618576beb43b9e1b8/SOLIDPrinciples3-UML.png)
+![UML Diagram](https://github.com/fausturnacht/SOLID-Principles3/blob/28452f20b1634b9dfd9a0c1764f342264fbd4e5e/SOLIDPrinciples3-UML-rev3.png)
 
