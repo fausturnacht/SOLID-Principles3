@@ -1,4 +1,4 @@
-public class Newspaper implements Literature {
+public class Newspaper implements Readable {
     private String title;
 
     public Newspaper(String title) {
@@ -9,10 +9,6 @@ public class Newspaper implements Literature {
         return title;
     }
 
-    @Override
-    public void borrow(Student student) {
-        System.out.println(student.getName() + " is borrowing newspaper: " + title);
-    }
 
     @Override
     public void read(Student student) {

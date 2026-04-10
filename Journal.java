@@ -1,4 +1,4 @@
-public class Journal implements Literature {
+public class Journal implements Borrowable, Readable {
     private String title;
 
     public Journal(String title) {

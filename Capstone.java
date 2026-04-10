@@ -1,4 +1,4 @@
-public class Capstone implements Literature {
+public class Capstone implements Borrowable, Readable {
     private String title;
 
     public Capstone(String title) {

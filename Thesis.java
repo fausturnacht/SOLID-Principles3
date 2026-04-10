@@ -1,4 +1,4 @@
-public class Thesis implements Literature {
+public class Thesis implements Borrowable, Readable {
     private String title;
 
     public Thesis(String title) {

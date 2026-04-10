@@ -9,11 +9,11 @@ public class Student {
         return name;
     }
 
-    public void borrow(Literature resource) {
+    public void borrow(Borrowable resource) {
         resource.borrow(this);
     }
 
-    public void read(Literature resource) {
+    public void read(Readable resource) {
         resource.read(this);
     }
 }

@@ -1,4 +1,4 @@
-public class Book implements Literature {
+public class Book implements Borrowable, Readable {
     private String title;
 
     public Book(String title) {
