@@ -9,17 +9,17 @@ public class TestProgram {
         Literature newspaper = new Newspaper("Newspaper1");
 
         System.out.println("--- Testing Borrowing ---");
-        book.borrow(student);
-        journal.borrow(student);
-        thesis.borrow(student);
-        capstone.borrow(student);
-        newspaper.borrow(student);
+        student.borrow(book);
+        student.borrow(journal);
+        student.borrow(thesis);
+        student.borrow(capstone);
+        student.borrow(newspaper);
 
         System.out.println("\n--- Testing Reading ---");
-        book.read(student);
-        journal.read(student);
-        thesis.read(student);
-        capstone.read(student);
-        newspaper.read(student);
+        student.read(book);
+        student.read(journal);
+        student.read(thesis);
+        student.read(capstone);
+        student.read(newspaper);
     }
 }
